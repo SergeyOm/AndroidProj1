@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/store_relative_layout"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/boton_to_tools_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to tools"
+        android:onClick="onClickToTools"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_store"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false" />
+</RelativeLayout>
